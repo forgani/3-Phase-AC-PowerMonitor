@@ -47,4 +47,9 @@ Burden Resistor (ohms) = (AREF * CT TURNS) / (2√2 * max primary current)
 The value of burden resistor depends on the maximum primary current that we want to measure.
 It should be calculated for ESP-12E so that the maximum of the CT output AC voltage is exactly 1V.
 
+
+To visualize the data, you create a simple Blynk app by using blynk mobile visual interface.
+![image](https://user-images.githubusercontent.com/25223934/136706706-1ac96483-67ae-4911-89af-8a0cc76f3ae1.png)
+
+
 for more info: https://www.forgani.com/electronics-projects/home-energy-monitor/

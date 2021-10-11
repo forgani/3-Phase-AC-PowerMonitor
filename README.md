@@ -53,3 +53,8 @@ To visualize the data, you create a simple Blynk app by using blynk mobile visua
 
 
 for more info: https://www.forgani.com/electronics-projects/home-energy-monitor/
+
+
+![3-AC-blynk](https://user-images.githubusercontent.com/25223934/136781403-09f9b3c4-f09b-4351-9c72-1826d17253d3.jpg)
+
+

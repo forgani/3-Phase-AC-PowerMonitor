@@ -31,11 +31,9 @@ Here's the wiring and circuit diagram
 
 So as we know the ESP-12E has only one single analog input, with an input range of 0 – 1.0V.
 
-The ESP-12E ADC (analog to digital converter) has a resolution of 10 bits.
-That’s mean the analog input measures varying voltage levels between 0V to 1.0V.
-The measured voltage will assigned to a value between 0 and 1023bits, in which 0V corresponds to 0, and 1.0V corresponds to 1023bits.
-To measure the 3 phases we need 3 ADC input. So I’m increasing the number of analog inputs to three by using a 74HC4051 multiplexer.
-
+The ESP-12E ADC (analog to digital converter) has a resolution of 10 bits and the analog input measures varying voltage levels between 0V to 1.0V.
+The measured voltage will assigned to a value between 0 and 1023 bits, in which 0V corresponds to 0, and 1.0V corresponds to 1023 bits.
+To measure the 3 phases we need 3x ADC input. So I’m increasing the number of analog inputs to three by using a 74HC4051 multiplexer.
 With the 74HC4051 we can connect up to 8 analog devices to the single analog pin on the ESP-12E (It uses 3 digital pins for addressing, from which two of them will cover my purpose).
 
 The AC current transformer which I’m using has 2000 windings and can measure up to 28 Amps.

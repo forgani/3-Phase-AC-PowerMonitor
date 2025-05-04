@@ -1,4 +1,4 @@
-# Monitoring the current of the 3-Phase AC load 
+# Monitoring the current of the 3-Phase AC load with Blynk app
 
 Building a Home Energy Monitor with ESP-12E and  3 X CT Sensors
 
